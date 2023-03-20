@@ -1,0 +1,44 @@
+*{
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+.amazing{
+  text-align: center;
+  font-size: 60px;
+}
+.color{
+  text-align: justify;
+  line-height: 20px;
+}
+.dog{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: cursive;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.mydog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 100vh;
+  border-radius: 5%;
+}
+/* .App{
+  margin: 60px;
+} */
+
+@media (prefers-reduced-motion: no-preference) {
+  .App {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  img {
+    max-width: 100%;
+  }
+}

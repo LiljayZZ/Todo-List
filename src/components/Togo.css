@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    background-image: url(./pic/naturefantasy.jpg);
+    background-size: cover;
+}
+
+.come{
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.btn{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover{
+    background: #7c7c7c6b;
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+}
+
+.go{
+    font-family: cursive;
+    font-size: 200%;
+}
+
+@media screen and (max-width: 735px) {
+    .come {
+      display: grid;
+    }
+    .go{
+        font-size: 120%;
+    }
+    button{
+        margin-top: -40px;
+        margin-left: 180px;
+    }
+    .btn:hover{
+        background: #7c7c7c6b;
+    }
+  }
